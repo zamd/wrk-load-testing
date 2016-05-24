@@ -10,8 +10,7 @@ local path = "/dbconnections/signup"
 headers["Content-Type"]="application/json"
 
 local body = {
-    client_id = "A86JMIAYC6ZEV8KcxNMT9FwRCh87nrFB",
-    --client_id = "mJYpKxOFvDdGm5yIyXV8GYx4Wk6siyMO",
+    client_id = "iwT4FkzL81v6CAMYdSHO98xhRsbyyy9l",
     email = "",
     password = "",
     connection = "perf"
