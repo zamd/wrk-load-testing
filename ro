@@ -1,0 +1,10 @@
+ wrk.path="/oauth/ro"
+ wrk.method="POST"
+ wrk.headers["Content-Type"]="application/json"
+ wrk.body=[[{
+  "client_id": "iwT4FkzL81v6CAMYdSHO98xhRsbyyy9l",
+  "username": "user99@example.org",
+  "password": "123456",
+  "scope": "openid name email",
+  "connection":"perf"
+}]]
