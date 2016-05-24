@@ -1,2 +1,2 @@
 # wrk-load-testing
-wrk scripts for load testing auth0 appliance
+`wrk -c1000 -d60s -t12 -T15s -s rod https://tenant.auth0.com 9999`
